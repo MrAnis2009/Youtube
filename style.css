@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 2000px;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+}
+
+header ul input {
+    display: inline-block;
+    margin: 10px 0 0 300px;
+    border-radius: 100px;
+    border: 1px solid rgb(90, 89, 89);
+    font-weight: 700;
+    justify-content: center;
+    padding: 10px;
+    width: 400px;
+}
+
+header ul li button {
+    justify-content: center;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid  white;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 0 300px;
+    cursor: pointer;
+}
+
+header ul li img {
+    margin: 0 0 0 10px;
+}
+
+header ul li a i {
+    gap: 10px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+section .youtube2 {
+    display: block;
+}
